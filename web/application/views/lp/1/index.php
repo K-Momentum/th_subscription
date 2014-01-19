@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="samsung,galaxy,note3,โทรศัพท์,ซัมซุง,โน๊ต3,มือถือ">
-<title>:ลุ้น!!Galaxy Note3:</title>
+<meta name="description" content="samsung,galaxy,note3,เน�เธ—เธฃเธจเธฑเธ�เธ—เน�,เธ�เธฑเธกเธ�เธธเธ�,เน�เธ�เน�เธ•3,เธกเธทเธญเธ–เธทเธญ">
+<title>:เธฅเธธเน�เธ�!!Galaxy Note3:</title>
 <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script>
 function validate(evt) {
@@ -57,27 +57,25 @@ function track(){
 
 <body bgcolor="#000000">
 	<form id="aform" action="<?php echo base_url();?>lp/track" onsubmit="return track();">
-		<input type="hidden" id="ptid" name="ptid" value="<?php echo $ptid?>" />
-		<input type="hidden" id="s" name="s" value="<?php echo $s?>" /> <input
-			type="hidden" id="p" name="p" value="<?php echo $p?>" />
+		<input type="hidden" id="track_id" name="track_id" value="<?php echo $track_id?>" />
 		<div class="content">
 			<img src="<?php echo base_url();?>images/lp/1/note3lp21.jpg"
-				alt="samsung,galaxy,note3,โทรศัพท์,ซัมซุง,โน๊ต3,มือถือ" width="800"
+				alt="samsung,galaxy,note3,เน�เธ—เธฃเธจเธฑเธ�เธ—เน�,เธ�เธฑเธกเธ�เธธเธ�,เน�เธ�เน�เธ•3,เธกเธทเธญเธ–เธทเธญ" width="800"
 				height="600"
 				style="position: absolute; top: 0px; left: 0px; z-index: 1000;" /><img
 				src="<?php echo base_url();?>images/lp/1/text.png"
-				alt="samsung,galaxy,note3,โทรศัพท์,ซัมซุง,โน๊ต3,มือถือ" width="330"
+				alt="samsung,galaxy,note3,เน�เธ—เธฃเธจเธฑเธ�เธ—เน�,เธ�เธฑเธกเธ�เธธเธ�,เน�เธ�เน�เธ•3,เธกเธทเธญเธ–เธทเธญ" width="330"
 				height="210" border=0px
 				style="position: absolute; top: 328px; left: 103px; z-index: 1000;" />
 			<input id="msisdn" name="msisdn" type="text"
 				onkeypress="validate(event)" maxlength="11"
 				style="font-size: 24px; text-align: center; position: absolute; width: 244px; height: 24px; top: 402px; left: 109px; z-index: 2000; border: 0px;" />
 			<img src="<?php echo base_url();?>images/lp/1/box.png"
-				alt="samsung,galaxy,note3,โทรศัพท์,ซัมซุง,โน๊ต3,มือถือ" width="260"
+				alt="samsung,galaxy,note3,เน�เธ—เธฃเธจเธฑเธ�เธ—เน�,เธ�เธฑเธกเธ�เธธเธ�,เน�เธ�เน�เธ•3,เธกเธทเธญเธ–เธทเธญ" width="260"
 				height="42" border=0px
 				style="position: absolute; top: 396px; left: 103px; z-index: 1000;" />
 			<img src="<?php echo base_url();?>images/lp/1/sub.png" onclick="$('#aform').submit()"
-				alt="samsung,galaxy,note3,โทรศัพท์,ซัมซุง,โน๊ต3,มือถือ" width="54"
+				alt="samsung,galaxy,note3,เน�เธ—เธฃเธจเธฑเธ�เธ—เน�,เธ�เธฑเธกเธ�เธธเธ�,เน�เธ�เน�เธ•3,เธกเธทเธญเธ–เธทเธญ" width="54"
 				height="55" border=0px
 				style="position: absolute; top: 388px; left: 371px; z-index: 1000; cursor: pointer;" />
 

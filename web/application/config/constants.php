@@ -51,5 +51,11 @@ define('DB_FORMAT_DATE', '%Y-%m-%d');
 define('DB_FORMAT_TIME', '%H:%i:%s');
 define('DB_FORMAT_DATETIME', DB_FORMAT_DATE.' '.DB_FORMAT_TIME);
 
+#Entry Status
+define('ENTRY_STATUS_NOT_SUCCESS', 0);
+define('ENTRY_STATUS_SUCCESS', 1);
+define('ENTRY_STATUS_SUCCESS_SHOOT', 2);
+
+
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */
