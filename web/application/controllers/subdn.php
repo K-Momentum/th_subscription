@@ -13,6 +13,8 @@ class subdn extends CI_Controller {
 		// Your own constructor code
 		$this->load->helper('date');
 		$this->load->helper('string');
+		$this->load->library('curl');
+
 	}
 	public function f2u(){
 		$ip_allow=array('203.146.102.205','203.146.102.206','202.176.88.73');
@@ -410,7 +412,7 @@ class subdn extends CI_Controller {
 
 
 	public function t(){
-		$this->load->library('curl');
+		#$this->load->library('curl');
 		$msisdn=$this->input->get_post('msisdn');
 		$cmd=$this->input->get_post('cmd');
 		$xmldn_str= "";
